@@ -1,0 +1,134 @@
+/*---------------------
+Estilos del Diseño
+--------------------*/
+html{
+    font-size:12px
+}
+body{
+    background-image: url(../imagenes/AZULEJOS.jpg);
+}
+.bg-primary{
+    background-color:rgb(230, 194, 170)!important;
+}
+.bg-secondary{
+    background-color:rgb(211,211,211)!important;
+}
+.btn-info{
+    background-color:rgb(180, 180, 200)!important;
+}
+.bg-inicio{
+    background-image:url(../imagenes/farola_gijon1.jpg) ;
+    width:100%;
+    height:auto;
+}
+.bg-laboral{
+    background-image:url(../imagenes/laboral3.jpg);
+   
+    ;
+}
+.bg-patio{
+    background-image:url(../imagenes/patio_laboral.jpg);
+    width:100%;
+    height:auto
+    
+}
+.bg-cupula{
+    background-image:url(../imagenes/la_cupula.jpg);
+    width:100%;
+    height:auto;
+}
+.bg-toponimia{
+    background-image:url(../imagenes/olas_mar.jpg);
+    width:100%;
+    height:auto;
+}
+.bg-educacion{
+    background-image:url(../imagenes/puerta_laboral2.jpg);
+    width:100%;
+    height:auto;
+}
+.bg-tabla{
+    background-image:url(../imagenes/elogio.jpg);
+    width:50%;
+    height:auto;
+}
+.bg-azulejos{
+    background-color: rgb(211,211,211);
+}
+.imagen{
+    background-size:cover;
+    background-position:top center;
+}
+.imagen-laboral >div{
+    height:30rem
+}
+.imagen-laboral .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-tabla .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-tabla >div{
+    height:35rem;
+}
+.imagen-inicio >div{
+    height:30rem
+}
+.imagen-inicio .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-patio > div{
+    height:30rem
+}
+
+.imagen-patio .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-toponimia > div{
+    height:35rem;
+}
+.imagen-toponimia .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-educacion > div{
+    height:30rem;
+}
+.imagen-educacion .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.imagen-promo .contenido{
+    border-top:1px solid black;
+    
+}
+.imagen-cupula >div{
+    height:30rem;
+}
+.imagen-cupula .contenido{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+
+@media(min-width:768px){
+    .imagen-toponimia>div{
+    height:40rem;
+    }
+}
+@media(min-width:768px){
+    .imagen-patio>div{
+    height:20rem;
+    }
+}
+    
+.card{
+    margin-bottom:2rem
+}
+.card-subtitle{
+    font-weight:700;
+}
